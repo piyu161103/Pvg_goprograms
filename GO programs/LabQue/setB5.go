@@ -7,6 +7,6 @@ func main() {
     fmt.Println("Address of allocated memory:", ptr)
     fmt.Println("Initial value at allocated memory:", *ptr)
 
-    *ptr = 50 // Assign a value to the allocated memory
+    *ptr = 50 
     fmt.Println("Updated value at allocated memory:", *ptr)
 }
