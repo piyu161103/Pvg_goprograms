@@ -10,8 +10,6 @@ func main() {
 
     fmt.Print("Enter the second string: ")
     fmt.Scan(&str2)
-
-    // Pointers to the strings
     ptr1 := &str1
     ptr2 := &str2
 
