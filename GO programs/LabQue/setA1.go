@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-    studentName := "Sakshi Jagtap"
-    rollNo := 25
+    studentName := "piyusha garad"
+    rollNo := 70
     division := "A"
-    collegeName := "ABC College of Technology"
+    collegeName := "BJS College of Technology"
 
     fmt.Println("Student Name:", studentName)
     fmt.Println("Roll No:", rollNo)
