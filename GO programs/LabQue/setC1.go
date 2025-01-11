@@ -12,8 +12,6 @@ func main() {
     fmt.Scan(&str2)
     ptr1 := &str1
     ptr2 := &str2
-
-    // Concatenate using pointers
     concatenated := *ptr1 + *ptr2
 
     fmt.Println("Concatenated string:", concatenated)
